@@ -3,13 +3,12 @@
   # Olá, eu sou o Pedro Henrique! 👋
   ### 🚀 Aspirante a Engenheiro de Dados | Python • SQL • ETL Pipelines • Cloud
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pedro_Henrique-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-LINKEDIN-AQUI/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pedro_Henrique-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
   [![GitHub](https://img.shields.io/badge/GitHub-pedrohenriqueinv-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pedrohenriqueinv)
-  [![Email](https://img.shields.io/badge/Email-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@exemplo.com)
 
   <br/>
 
-  > *"Transformando dados brutos em pipelines confiáveis, estruturados e prontos para tomada de decisão."*
+  > *"Transformando dados brutos em pipelines confiáveis, estruturados e prontos para tomada de decisão analítica."*
 
 </div>
 
@@ -58,25 +57,13 @@
     <td width="50%">
       <h3 align="center">🔄 ETL Pipeline & Data Quality</h3>
       <p align="center">
-        <a href="https://github.com/pedrohenriqueinv/organizador-de-contatos">
+        <a href="https://github.com/pedrohenriqueinv/etl-contacts-pipeline">
           <img src="https://img.shields.io/badge/Ver_Repositório-blue?style=for-the-badge&logo=github" />
         </a>
       </p>
-      <p>Pipeline completo de dados em Python: extração de dados via API REST, higienização rigorosa (Data Quality & Regex), desduplicação e carga em batch no <b>PostgreSQL Cloud</b> com orquestração diária via <b>GitHub Actions</b> e testes com <b>Pytest</b>.</p>
+      <p>Pipeline completo de dados em Python: extração de dados via API REST, higienização rigorosa (Data Quality & Regex), desduplicação e carga em batch no <b>PostgreSQL Cloud</b> com orquestração diária via <b>GitHub Actions</b> e testes automatizados com <b>Pytest</b>.</p>
       <p><b>Techs:</b> Python, PostgreSQL, Pandas, SQLAlchemy, GitHub Actions, Pytest.</p>
     </td>
-    <td width="50%">
-      <h3 align="center">📊 Data Processing & Ingestion Tool</h3>
-      <p align="center">
-        <a href="https://github.com/pedrohenriqueinv/conversor_planilhas">
-          <img src="https://img.shields.io/badge/Ver_Repositório-green?style=for-the-badge&logo=github" />
-        </a>
-      </p>
-      <p>Aplicação analítica para padronização e ingestão flexível de planilhas complexas (Excel/CSV), com mapeamento automático de schemas, detecção de encoding e exportação estruturada.</p>
-      <p><b>Techs:</b> Python, Streamlit, Pandas, OpenPyXL.</p>
-    </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3 align="center">📚 Data Science & Cloud Studies</h3>
       <p align="center">
@@ -87,6 +74,8 @@
       <p>Repositório de anotações técnicas e aprofundamento teórico sobre computação em nuvem (AWS/GCP/Azure), arquiteturas de dados e boas práticas de desenvolvimento.</p>
       <p><b>Techs:</b> Cloud Computing, Arquitetura de Dados, Python.</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3 align="center">⚡ Academic Attendance System</h3>
       <p align="center">
@@ -94,8 +83,18 @@
           <img src="https://img.shields.io/badge/Ver_Repositório-orange?style=for-the-badge&logo=github" />
         </a>
       </p>
-      <p>Sistema local com persistência relacional em SQLite, modelagem de dados e interface moderna com foco em integridade e transações atômicas locais.</p>
+      <p>Sistema desktop/web com modelagem relacional de dados em SQLite, persistência transacional local e interface moderna em Tailwind CSS.</p>
       <p><b>Techs:</b> Python, Flask, SQLite3, Tailwind CSS.</p>
+    </td>
+    <td width="50%">
+      <h3 align="center">📊 Data Processing & Ingestion Tool</h3>
+      <p align="center">
+        <a href="https://github.com/pedrohenriqueinv">
+          <img src="https://img.shields.io/badge/Em_Breve-gray?style=for-the-badge&logo=github" />
+        </a>
+      </p>
+      <p>Aplicação analítica para padronização e ingestão flexível de planilhas complexas (Excel/CSV), com mapeamento automático de schemas e detecção de encoding.</p>
+      <p><b>Techs:</b> Python, Streamlit, Pandas, OpenPyXL.</p>
     </td>
   </tr>
 </table>
