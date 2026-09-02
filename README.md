@@ -1,10 +1,3 @@
-**### 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img height="160em" src="https://github-readme-stats-fast.vercel.app/api?username=pedrohenriqueinv&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
-  <img height="160em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=pedrohenriqueinv&layout=compact&theme=tokyonight&hide=html" alt="Linguagens Mais Usadas" />
-</div>**<div align="center">
-  
   # Olá, eu sou o Pedro Henrique! 👋
   ### 🚀 Aspirante a Engenheiro de Dados | Python • SQL • ETL Pipelines • Cloud
   
