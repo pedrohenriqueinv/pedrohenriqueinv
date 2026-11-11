@@ -1,7 +1,8 @@
 ![Pedro Henrique · Engenharia de Dados. Python, SQL e PostgreSQL. Fluxo de ingestão, transformação e carga.](./assets/perfil.png)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pedro%20Henrique-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-h-a27a9a275)
-![DataCamp](https://img.shields.io/badge/DataCamp-Certifica%C3%A7%C3%A3o%20em%20Engenharia%20de%20Dados-135B46?style=flat-square&logo=datacamp&logoColor=white)
+![DataCamp](https://img.shields.io/badge/DataCamp-Data%20Engineer-135B46?style=flat-square&logo=datacamp&logoColor=white)
+![Microsoft](https://img.shields.io/badge/Microsoft-Career%20Essentials%20in%20Generative%20AI-175A9E?style=flat-square&logo=microsoft&logoColor=white)
 [![GitHub](https://img.shields.io/badge/GitHub-pedrohenriqueinv-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pedrohenriqueinv)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -21,7 +22,12 @@
 
 ### Sobre mim
 
-Curso **Engenharia de Software em Goiás** e busco estágio em **Engenharia de Dados**. Desenvolvo pipelines em Python e SQL, da ingestão de dados semiestruturados à validação e carga em bancos relacionais. Tenho certificação em **Engenharia de Dados pela DataCamp**.
+Curso **Engenharia de Software em Goiás** e busco estágio em **Engenharia de Dados**. Desenvolvo pipelines em Python e SQL, da ingestão de dados semiestruturados à validação e carga em bancos relacionais. Possuo a credencial **Data Engineer** da DataCamp e formação em IA generativa pela Microsoft e LinkedIn.
+
+## Certificações
+
+- **Data Engineer** · DataCamp · outubro de 2026 · ID da credencial: `ee27d588aceb7f9289663c7bb2d5e45944ba0698`
+- **Career Essentials in Generative AI by Microsoft and LinkedIn** · Microsoft · julho de 2026
 
 ## Projeto principal
 
