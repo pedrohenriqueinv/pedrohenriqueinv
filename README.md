@@ -1,42 +1,38 @@
-# Pedro Henrique Qualto
+![Pedro Henrique — Engenharia de Dados. Python, SQL e PostgreSQL. Fluxo de ingestão, transformação e carga.](./assets/perfil.png)
 
-**Engenharia de Dados · Python · SQL · PostgreSQL**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pedro%20Henrique-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-h-a27a9a275)
+![DataCamp](https://img.shields.io/badge/DataCamp-Certifica%C3%A7%C3%A3o%20em%20Engenharia%20de%20Dados-135B46?style=flat-square&logo=datacamp&logoColor=white)
 
-Graduando em Engenharia de Software na **UniEVANGÉLICA**, em Anápolis (GO). Desenvolvo projetos de ingestão, transformação e carga de dados, com foco em qualidade, modelagem relacional e automação. Busco **estágio em Engenharia de Dados**.
+### Sobre mim
 
-[LinkedIn](https://www.linkedin.com/in/pedro-h-a27a9a275)
+Estudo Engenharia de Software na **UniEVANGÉLICA**, em Anápolis (GO), e busco estágio em **Engenharia de Dados**. Nos meus projetos, uso Python e SQL para estruturar dados semiestruturados, aplicar regras de qualidade e carregar os resultados em bancos relacionais. Minha certificação em **Engenharia de Dados pela DataCamp** complementa essa prática.
 
-## Certificação
-
-> **Engenharia de Dados · DataCamp**
-
-## Projetos em destaque
+## Projeto principal
 
 ### [Pipeline ETL de contatos](https://github.com/pedrohenriqueinv/etl-contacts-pipeline)
 
-Extração de contatos fictícios de uma API REST, padronização e deduplicação com Pandas e carga em lotes no PostgreSQL. O projeto inclui testes com pytest e um workflow agendado no GitHub Actions.
+Transforma listas de contatos em TXT em registros estruturados para consulta no PostgreSQL.
 
-**Python · Pandas · SQLAlchemy · PostgreSQL · pytest · GitHub Actions**
+| Etapa | Implementação |
+| --- | --- |
+| **Ingestão** | Leitura de arquivos TXT em UTF-8, com caminho configurável. |
+| **Transformação** | Parser em Python, normalização de campos, tipagem e deduplicação com Pandas. |
+| **Carga** | Transação via SQLAlchemy e upsert no PostgreSQL com `ON CONFLICT (email) DO UPDATE`. |
+| **Automação** | Workflow agendado no GitHub Actions, suíte pytest e logs por etapa. |
 
-### [LOGOS · Prática de Python e SQL](https://github.com/pedrohenriqueinv/LOGOS)
+[Implementação do ETL](https://github.com/pedrohenriqueinv/etl-contacts-pipeline/blob/HEAD/pipeline/etl.py) · [Testes](https://github.com/pedrohenriqueinv/etl-contacts-pipeline/blob/HEAD/tests/test_etl.py) · [Workflow](https://github.com/pedrohenriqueinv/etl-contacts-pipeline/blob/HEAD/.github/workflows/pipeline_schedule.yml)
 
-Plataforma de estudo com cartões de revisão que executam exercícios de Python/Pandas e SQL no navegador. Usa Pyodide para Python e PGlite para PostgreSQL.
+## Mais projetos e estudos
 
-**TypeScript · Pyodide · Pandas · PGlite**
+**[LOGOS](https://github.com/pedrohenriqueinv/LOGOS)** — plataforma de estudo com exercícios executáveis de Python/Pandas e SQL. O código roda no navegador via WebAssembly, com Pyodide para Python e PGlite para PostgreSQL.
 
-### [Controle de Faltas Acadêmicas](https://github.com/pedrohenriqueinv/academic_attendance_system)
-
-Aplicação que registra presenças e faltas, mantém o histórico por disciplina em SQLite e calcula indicadores de frequência a partir dos registros.
-
-**Python · Flask · SQLite**
+**[Estudos de Engenharia de Dados](https://github.com/pedrohenriqueinv/data-science-studies/tree/HEAD/data-engineering)** — anotações e exercícios de ingestão, limpeza de dados, ETL/ELT, testes de integração e orquestração com Apache Airflow.
 
 ## Tecnologias
 
-| Área | Tecnologias e práticas |
+| Área | Ferramentas e práticas |
 | --- | --- |
-| Linguagens e bancos | Python, SQL, PostgreSQL, SQLite |
-| Pipelines e qualidade | APIs REST, ETL, Pandas, SQLAlchemy, validação e deduplicação |
-| Testes e automação | pytest, Git, GitHub Actions |
-| Em estudo | Apache Airflow, formatos de dados e fundamentos de cloud |
-
-Mantenho [anotações e exercícios de Engenharia de Dados](https://github.com/pedrohenriqueinv/data-science-studies), com estudos sobre ingestão, ETL/ELT e orquestração.
+| **Linguagens e bancos** | Python · SQL · PostgreSQL · SQLite |
+| **Processamento de dados** | Pandas · SQLAlchemy · normalização · deduplicação · upsert |
+| **Testes e automação** | pytest · Git · GitHub Actions |
+| **Em estudo** | Apache Airflow · Parquet · fundamentos de cloud |
