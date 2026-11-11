@@ -5,7 +5,7 @@
 
 ### Sobre mim
 
-Estudo Engenharia de Software na **UniEVANGÉLICA**, em Anápolis (GO), e busco estágio em **Engenharia de Dados**. Nos meus projetos, uso Python e SQL para estruturar dados semiestruturados, aplicar regras de qualidade e carregar os resultados em bancos relacionais. Minha certificação em **Engenharia de Dados pela DataCamp** complementa essa prática.
+Curso **Engenharia de Software em Goiás** e busco estágio em **Engenharia de Dados**. Desenvolvo pipelines em Python e SQL, da ingestão de dados semiestruturados à validação e carga em bancos relacionais. Tenho certificação em **Engenharia de Dados pela DataCamp**.
 
 ## Projeto principal
 
@@ -28,11 +28,20 @@ Transforma listas de contatos em TXT em registros estruturados para consulta no 
 
 **[Estudos de Engenharia de Dados](https://github.com/pedrohenriqueinv/data-science-studies/tree/HEAD/data-engineering)** — anotações e exercícios de ingestão, limpeza de dados, ETL/ELT, testes de integração e orquestração com Apache Airflow.
 
-## Tecnologias
+## AI Builder · Aplicações e orquestração de agentes
 
-| Área | Ferramentas e práticas |
+- **[LOGOS](https://github.com/pedrohenriqueinv/LOGOS)** · progressão opcional de dificuldade nos cartões de revisão com Gemini, integrada ao agendamento FSRS e aos exercícios executáveis de Python e SQL.
+- **[GEMUL Professor](https://github.com/pedrohenriqueinv/acq-edu)** · integração com a API Gemini para gerar planejamentos estruturados, com revisão e edição pelo usuário antes da exportação.
+- **Orquestração de agentes** · desenho fluxos com planejamento, implementação, revisão e validação. Uso roteamento por complexidade para escolher modelos e critérios de aceite para decidir quando encerrar ou repetir uma rodada.
+
+## Stack técnica
+
+| Área | Tecnologias e práticas |
 | --- | --- |
-| **Linguagens e bancos** | Python · SQL · PostgreSQL · SQLite |
-| **Processamento de dados** | Pandas · SQLAlchemy · normalização · deduplicação · upsert |
-| **Testes e automação** | pytest · Git · GitHub Actions |
-| **Em estudo** | Apache Airflow · Parquet · fundamentos de cloud |
+| **Engenharia de dados** | Python · SQL · Pandas · ETL · parsing de texto · tipagem, normalização e deduplicação |
+| **Bancos e acesso a dados** | PostgreSQL · SQLite · Supabase · SQLAlchemy · psycopg2 · transações e upsert |
+| **Apps e frameworks** | Flask · Streamlit · TypeScript · React · Next.js · Tailwind CSS |
+| **Processamento e visualização** | OpenPyXL · Recharts · Pyodide · PGlite · WebAssembly |
+| **IA aplicada** | Gemini API · geração estruturada · revisão humana · orquestração de agentes · roteamento de modelos |
+| **Testes e automação** | pytest · Git · GitHub Actions · workflows agendados |
+| **Em estudo** | Apache Airflow · NumPy · Parquet · fundamentos de cloud |
